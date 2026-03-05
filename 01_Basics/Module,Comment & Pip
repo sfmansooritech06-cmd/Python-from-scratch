@@ -1,0 +1,30 @@
+Modules- 
+A module is a file containing a code usually written by somebody else which can be import and used in our program.
+Types of Module-
+
+There are two types of module
+1. Built in module
+2. External module
+
+Creating Module-
+def greeting(name):
+    print("Hello,"+ name)
+
+Save this code as my module or by any other name
+
+Using a module
+
+import mymodule
+mymodule.greeting("Ram")
+
+Output-
+Hello,Ram
+
+What is PIP?
+Pip is a package manager for python you can use pip to install a moduleon your system.
+
+What is Comments?
+Comments can be used to make program more readable Commments are used to write something which the programmer does not want to excute.
+There are two types of Comment-
+Single line Comment - Written by using #
+Multi line Comment - written by using triple inverted comma (""",""")
