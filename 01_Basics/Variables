@@ -1,0 +1,69 @@
+Python Variables
+
+Variable are used to store and manage data. It is like a container that holds data.
+Variable name must start with letter or the underscore character.
+Variable name cannot start with number.
+Variable name can only contain alpha-numeric character and underscore. [A-Z, 0-9, _]
+Variable name are case sensitive (Name, NAME, name different variables)
+Variable name cannot be any of the Python keyword.
+Example
+a = 10   ✓
+var = 5  ✓
+_var = 5 ✓
+var_1 = 5 ✓
+1var = 5 ✗
+
+Assigning Multiple Variables to Many Values
+
+Python allow us to assign values to multiple variable in one line.
+
+Example
+a, b, c = "Mango", "Orange", "Banana"
+
+print(a)
+print(b)
+print(c)
+
+Output
+Mango
+Orange
+Banana
+
+Note: Make sure the number of variables matches the number of values, or else you will get an error.
+
+One Value to Multiple Variables
+And you can assign the same value to multiple variables in one line.
+
+Example
+x = y = z = "Hello"
+print(x)
+print(y)
+print(z)
+
+Output
+Hello
+Hello
+Hello
+
+Unpack a Collection
+If you have a collection of values in a list tuple etc. python allow you to extract the values into wariable This is called upacking
+
+Example
+Fruits = ["apple","mango","Banana"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+
+Output:-
+apple
+mango
+banana
+
+
+Output Variable-
+In python print() function is often used to output variable
+x = "python is awesom"
+print(x)
+ 
+In print funtion the output of variable seprated by comma and we can also use + operaton in place of ,(comma).
