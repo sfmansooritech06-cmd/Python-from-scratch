@@ -1,1 +1,29 @@
-Data type specifies the type of value a variable holds.
+Data type specifies the type of value a variable holds. This is required in programming to do various operations without causing an error.
+
+It is not necessary to specify the type in Python because the Python interpreter automatically interprets the variable type.
+
+type() – With this function we can verify which type of data type is used in a variable.
+
+Following are the types of Data Types
+
+1.Numeric
+
+    Integer
+
+    Complex number
+
+    Float
+
+2.Dictionary
+
+3.Boolean
+
+4.Set
+
+5.Sequence Type
+
+    String
+
+    List
+
+    Tuple
